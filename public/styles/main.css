@@ -59,6 +59,7 @@ h1 {
 }
 .cards {
   padding: 30px;
+  margin-bottom: 10%;
   display: flex;
   width: 100%;
 }
