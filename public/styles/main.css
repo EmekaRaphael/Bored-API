@@ -20,6 +20,8 @@ h1 {
   font-family: monospace;
   font-size: 2.5rem;
   height: 50%;
+  margin-bottom: 5%;
+  padding: 5%;
   width: 100%;
   text-align: center;
 }
@@ -37,7 +39,8 @@ h1 {
 }
 /* ------------ */
 .form {
-  margin-top: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 80px;
@@ -93,3 +96,34 @@ h1 {
 }
 /* ------------ */
 
+@media (max-width: 500px) {
+  h1 {
+    margin-bottom: 5%;
+    padding: 5%;
+  }
+
+  .navbar-mainbg {
+      background-color: #3586ff;
+      padding: 0px;
+      margin-bottom: 100px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+  .form {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  footer {
+      margin-top: 15%;
+  }
+}
