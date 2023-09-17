@@ -20,14 +20,13 @@ h1 {
   font-family: monospace;
   font-size: 2.5rem;
   height: 50%;
-  margin-bottom: 100px;
+  margin-bottom: 25px;
   width: 100%;
   text-align: center;
 }
 
 /* ------------ */
 .container {
-  height: 50%;
   max-width: 570px;
   margin: 0 auto;
   padding: 60px;
@@ -104,7 +103,7 @@ h1 {
   .navbar-mainbg {
       background-color: #3586ff;
       padding: 0px;
-      margin-bottom: 100px;
+      margin-bottom: 50px;
   }
 
   .container {
